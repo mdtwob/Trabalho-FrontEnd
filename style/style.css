@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 109, 90);
+    color: black;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(219, 191, 245);
+    padding: 10px;
+}
+footer{
+    background-color: rgb(219, 191, 245);
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+h1, h2, h3 {
+    color: rgb(173, 2, 2);
+    margin: 20px;
+}
+
+a {
+    color: rgb(150, 2, 2);
+}
+
+p {
+    margin: 20px;
+    border: 2px solid rgb(255, 25, 25);
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    margin: 20px;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    flex: 1; /* Ocupa o máximo de espaço possível */
+}
+
+.logo img {
+    height: 40px; /* Ajuste a altura conforme necessário */
+    padding: 0 10px; /* Espaçamento ao redor da logo */
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
